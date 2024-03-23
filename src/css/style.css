@@ -1,0 +1,106 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+.secao__principal {
+    background-image: url(/public/storage-ai_resized.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao__principal__form h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
+
+.secao__principal__form__p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.creditos {
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secao__principal__form span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+.modal__edit h1 {
+    font-size: 2rem;
+}
+
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .secao__principal__form h1 {
+        font-size: 3rem;
+    }
+
+    .secao__principal__form__p {
+        font-size: 1rem;
+    }
+
+    .creditos {
+        font-size: 0.5rem;
+    }
+
+    .secao__principal__form span {
+        font-size: 1rem;
+    }
+
+    .form__sm {
+        padding: 2rem 0;
+    }
+
+    .modal__edit h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .secao__principal__form h1 {
+        font-size: 5rem;
+    }
+
+    .secao__principal__form__p {
+        font-size: 2rem;
+    }
+
+    .creditos {
+        font-size: 0.8rem;
+    }
+
+    .secao__principal__form span {
+        font-size: 1.5rem;
+    }
+
+    .modal__edit h1 {
+        font-size: 2rem;
+    }
+}
+

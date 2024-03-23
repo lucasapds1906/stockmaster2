@@ -1,0 +1,10 @@
+@import url(/src/css/reset.css);
+
+.centralizar {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/public/resized.jpg);
+    width: 100vw;
+    height: 100vh;
+}
