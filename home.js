@@ -5,7 +5,7 @@ const homeForm = {
 
 function logout() {
     firebase.auth().signOut().then(() => {
-        window.location.href = "/src/index.html";
+        window.location.href = "index.html";
 
     }).catch(() => {
         alert('Erro ao fazer logout');
